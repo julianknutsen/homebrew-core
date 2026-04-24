@@ -1,11 +1,10 @@
 class Boost < Formula
   desc "Collection of portable C++ source libraries"
   homepage "https://www.boost.org/"
-  url "https://github.com/boostorg/boost/releases/download/boost-1.90.0/boost-1.90.0-b2-nodocs.tar.xz"
-  sha256 "9e6bee9ab529fb2b0733049692d57d10a72202af085e553539a05b4204211a6f"
+  url "https://github.com/boostorg/boost/releases/download/boost-1.91.0-1/boost-1.91.0-1-b2-nodocs.tar.xz"
+  sha256 "7334bb672b9c7aa135da88bcc3111a64a198be9a7d44eb5151d9248e7cfd43ef"
   license "BSL-1.0"
-  revision 1
-  compatibility_version 1
+  compatibility_version 2
   head "https://github.com/boostorg/boost.git", branch: "master"
 
   livecheck do
@@ -33,13 +32,6 @@ class Boost < Formula
 
   on_linux do
     depends_on "zlib-ng-compat"
-  end
-
-  # Fix for `ncmpcpp`, pr ref: https://github.com/boostorg/range/pull/157
-  patch :p3 do
-    url "https://github.com/boostorg/range/commit/9ac89e9936b826c13e90611cb9a81a7aa0508d20.patch?full_index=1"
-    sha256 "914464ffa1d53b3bf56ee0ff1a78c25799170c99c9a1cda075e6298f730236ad"
-    directory "boost"
   end
 
   def install
