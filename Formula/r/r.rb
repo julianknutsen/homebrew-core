@@ -1,8 +1,8 @@
 class R < Formula
   desc "Software environment for statistical computing"
   homepage "https://www.r-project.org/"
-  url "https://cran.r-project.org/src/base/R-4/R-4.5.3.tar.gz"
-  sha256 "aa5c1ed4293c7271ac513d654670356ac0e8a6ad5e42be014365d11150b5b8f2"
+  url "https://cran.r-project.org/src/base/R-4/R-4.6.0.tar.gz"
+  sha256 "b8dc9b4543660c7b596b87938df532394350360976527d344228ee0ed12e45ec"
   license "GPL-2.0-or-later"
   compatibility_version 1
 
@@ -108,6 +108,7 @@ class R < Formula
       ENV.append "LDFLAGS", "-L#{Formula[f].opt_lib}"
     end
 
+    ENV["TZ"] = "UTC"
     system "./configure", *args
     system "make"
     ENV.deparallelize do
