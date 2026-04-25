@@ -4,7 +4,7 @@ class Sfcgal < Formula
   url "https://gitlab.com/sfcgal/SFCGAL/-/archive/v2.2.0/SFCGAL-v2.2.0.tar.gz"
   sha256 "bb6bb77ddb58523d8c229764de23699f99c1a7011d873419afd2a67df85602a2"
   license "LGPL-2.0-or-later"
-  revision 2
+  revision 3
   compatibility_version 1
 
   bottle do
