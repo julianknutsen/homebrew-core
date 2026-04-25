@@ -5,6 +5,7 @@ class ThorsAnvil < Formula
       tag:      "9.1.14",
       revision: "90cf2b697ba94e9da335dc8dbd8c2fae77f44771"
   license "MIT"
+  revision 1
 
   bottle do
     sha256 cellar: :any,                 arm64_tahoe:   "b10235fa39a6491082a96e13d1baf4c1c0a3c9c02ac68b1c7116cc8ec83c4e21"
