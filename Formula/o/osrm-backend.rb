@@ -4,6 +4,7 @@ class OsrmBackend < Formula
   url "https://github.com/Project-OSRM/osrm-backend/archive/refs/tags/v26.4.1.tar.gz"
   sha256 "1b836eefc0233a65fa04e66073eabb1674cc41988a8b8862856d967cdd0fe17b"
   license "BSD-2-Clause"
+  revision 1
   head "https://github.com/Project-OSRM/osrm-backend.git", branch: "master"
 
   livecheck do
