@@ -4,6 +4,7 @@ class Kfr < Formula
   url "https://github.com/kfrlib/kfr/archive/refs/tags/7.0.1.tar.gz"
   sha256 "42b36126f2af8719eff6f26e87e9f155816bc3bb110376e4747ba5de536c2cce"
   license "GPL-2.0-or-later"
+  revision 1
 
   bottle do
     sha256 cellar: :any,                 arm64_tahoe:   "86b96b05477af3f3661276b223983fadd610b7e471407430f7cc1cf2e314a8eb"
