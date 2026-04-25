@@ -4,6 +4,7 @@ class Lager < Formula
   url "https://github.com/arximboldi/lager/archive/refs/tags/v0.1.3.tar.gz"
   sha256 "55d3442d2d4306aad78fa2af5d3db01af65f4fdbfc58c4620fba13dbde82e599"
   license "MIT"
+  revision 1
   head "https://github.com/arximboldi/lager.git", branch: "master"
 
   bottle do
