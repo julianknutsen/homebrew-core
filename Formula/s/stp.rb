@@ -2,7 +2,7 @@ class Stp < Formula
   desc "Simple Theorem Prover, an efficient SMT solver for bitvectors"
   homepage "https://stp.github.io/"
   license "MIT"
-  revision 9
+  revision 10
   head "https://github.com/stp/stp.git", branch: "master"
 
   stable do
