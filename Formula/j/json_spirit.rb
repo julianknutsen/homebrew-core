@@ -7,6 +7,7 @@ class JsonSpirit < Formula
   version "4.08"
   sha256 "43829f55755f725c06dd75d626d9e57d0ce68c2f0d5112fe9a01562c0501e94c"
   license "MIT"
+  revision 1
 
   livecheck do
     url :stable
