@@ -5,6 +5,7 @@ class Arabica < Formula
   version "20200425"
   sha256 "b00c7b8afd2c3f17b5a22171248136ecadf0223b598fd9631c23f875a5ce87fe"
   license "BSD-3-Clause"
+  revision 1
   head "https://github.com/jezhiggins/arabica.git", branch: "main"
 
   # The formula uses a YYYYMMDD version format, so we have to check the release
