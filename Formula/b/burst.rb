@@ -4,6 +4,7 @@ class Burst < Formula
   url "https://github.com/izvolov/burst/archive/refs/tags/v3.1.1.tar.gz"
   sha256 "ee58c7b98ca1709dd452b9ba46cb4c91fc0b2952edd020ed5bc2d600b3edeae7"
   license "BSL-1.0"
+  revision 1
   head "https://github.com/izvolov/burst.git", branch: "master"
 
   bottle do
