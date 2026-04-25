@@ -7,6 +7,7 @@ class Kea < Formula
   mirror "https://dl.cloudsmith.io/public/isc/kea-3-0/raw/versions/3.0.3/kea-3.0.3.tar.xz"
   sha256 "09702ddb078b637e85de9236cbedd3fb9d7af7c6e797026c538b45748ad4d631"
   license "MPL-2.0"
+  revision 1
   head "https://gitlab.isc.org/isc-projects/kea.git", branch: "master"
 
   livecheck do
