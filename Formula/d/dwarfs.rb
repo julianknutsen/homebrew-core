@@ -4,6 +4,7 @@ class Dwarfs < Formula
   url "https://github.com/mhx/dwarfs/releases/download/v0.15.3/dwarfs-0.15.3.tar.xz"
   sha256 "2a9c6b7cb2841f3c7b75839da9326724a2817e4467b20e79e3e24c3eefc13eca"
   license "GPL-3.0-or-later"
+  revision 1
 
   livecheck do
     url :stable
