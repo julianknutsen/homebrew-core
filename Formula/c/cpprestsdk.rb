@@ -5,7 +5,7 @@ class Cpprestsdk < Formula
   url "https://github.com/microsoft/cpprestsdk/archive/refs/tags/v2.10.19.tar.gz"
   sha256 "4b0d14e5bfe77ce419affd253366e861968ae6ef2c35ae293727c1415bd145c8"
   license "MIT"
-  revision 4
+  revision 5
   head "https://github.com/microsoft/cpprestsdk.git", branch: "master"
 
   bottle do
