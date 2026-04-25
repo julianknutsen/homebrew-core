@@ -4,6 +4,7 @@ class Metaproxy < Formula
   url "https://ftp.indexdata.com/pub/metaproxy/metaproxy-1.22.3.tar.gz"
   sha256 "db154f1d57e00769c59e676888be7610bde70e32ee179c8185bd9179f2b02811"
   license "GPL-2.0-or-later"
+  revision 1
 
   # The homepage doesn't link to the latest source file, so we have to check
   # the directory listing page directly.
