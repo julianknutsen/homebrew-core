@@ -4,6 +4,7 @@ class Numcpp < Formula
   url "https://github.com/dpilger26/NumCpp/archive/refs/tags/Version_2.16.1.tar.gz"
   sha256 "e543049b267ce6bc28463e45db3eaefa4e7c0944c89d709df515736bfef807b4"
   license "MIT"
+  revision 1
   head "https://github.com/dpilger26/NumCpp.git", branch: "master"
 
   bottle do
