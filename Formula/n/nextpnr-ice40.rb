@@ -4,6 +4,7 @@ class NextpnrIce40 < Formula
   url "https://github.com/YosysHQ/nextpnr/archive/refs/tags/nextpnr-0.10.tar.gz"
   sha256 "374393094cdf7b2aae415cebf0994840b4a355bb95e89c683ef19f95f0b14dc2"
   license "ISC"
+  revision 1
   head "https://github.com/YosysHQ/nextpnr.git", branch: "main"
 
   bottle do
