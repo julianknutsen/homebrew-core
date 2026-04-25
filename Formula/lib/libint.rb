@@ -5,6 +5,7 @@ class Libint < Formula
   sha256 "9651705c79f77418ef0230aafc0cf1b71b17c1c89e413ee0e5ee7818650ce978"
   # The generator is GPLv3 but it doesn't impact the license of packaged library
   license "LGPL-3.0-only"
+  revision 1
   compatibility_version 1
 
   bottle do
