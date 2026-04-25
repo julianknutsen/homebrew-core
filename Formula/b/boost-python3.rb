@@ -4,6 +4,7 @@ class BoostPython3 < Formula
   url "https://github.com/boostorg/boost/releases/download/boost-1.91.0-1/boost-1.91.0-1-b2-nodocs.tar.xz"
   sha256 "7334bb672b9c7aa135da88bcc3111a64a198be9a7d44eb5151d9248e7cfd43ef"
   license "BSL-1.0"
+  revision 1
   compatibility_version 2
   head "https://github.com/boostorg/boost.git", branch: "master"
 
