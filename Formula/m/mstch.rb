@@ -4,7 +4,7 @@ class Mstch < Formula
   url "https://github.com/no1msd/mstch/archive/refs/tags/1.0.2.tar.gz"
   sha256 "811ed61400d4e9d4f9ae0f7679a2ffd590f0b3c06b16f2798e1f89ab917cba6c"
   license "MIT"
-  revision 1
+  revision 2
 
   bottle do
     sha256 cellar: :any_skip_relocation, arm64_tahoe:    "de05bbbd99f8eb688ae2cd08287796eddbd6774bed8f27945cc818e8a1aee27a"
